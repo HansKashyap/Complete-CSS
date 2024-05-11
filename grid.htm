@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 300px;
+            background-color: yellow;
+            display: grid;
+            /* display: inline-grid; */
+            /* grid-template-rows:50px 50px 50px 50px 50px; */
+            grid-template-columns: 100px  100px  100px  100px  100px;
+            /* grid-row:100px  100px  100px  100px  100px; */
+            /* grid-template-columns: auto auto auto auto auto ; */
+
+            /* grid-template-rows: repeat(4,1fr); */ 
+             /* //same h dono upar neeche wale*/
+            /* grid-template-rows: 1fr 1fr 1fr ;
+            grid-template-columns: repeat(3,1fr); */
+            /* row-gap: 30px;
+            column-gap: 5px; */
+
+            /* dono ko likhne ka short way */
+            /* pahla row gap ,fir column */
+            /* grid-gap:10px 30px ; */
+            /* single likhne ka mtlb row and colu dono 10px ka gap chahiye */
+            /* grid-gap:40px; */
+
+
+
+            /* justify-items: start;
+            justify-items: end;
+            justify-items: center; */
+
+            /* verticaly or horizontly dono ek sath karne ke liye */
+            /* place-items: center;
+
+
+            align-items: start;
+            align-items: end;
+            align-items: center; */
+
+
+        
+        }
+        /* kisi particular ko justfy karna h to */
+        .one{
+            /* justify-self: end;   */
+            /* align-self: start;  */
+            /* align-self: end;  */
+        }
+        /* .item{
+             width: 100px;
+             height: 50px; 
+            background-color: greenyellow;
+            border: 2px solid black;
+            text-align: center;
+            
+        } */
+
+        /* .one{ */
+            /* grid-column-start:1 ; */
+            /* grid-column-end:5 ; */
+
+
+            /* sort formn */
+            /* grid-column: 1/3; */
+
+            /* same h dono */
+            /* grid-column: 1/span 3; */
+        /* } */
+        /* .two{
+            /* grid-row: 1/span 4; */
+        /* }  */
+    </style>
+</head>
+<body>
+    <h1>Grid playground</h1>
+    <div class="container">
+        <div class="item one">1</div>
+        <div class="item two">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h3{
+    color:#b92b27 ;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+.follow{
+    /* color: springgreen; */
+}
+.upvote{
+    background-color: aqua;
+}
+
+/* decendant selector */
+ p~a{
+    color: blue;
+    background-color: yellow;
+ }
+ nav ul li a {
+    color: fuchsia;
+ }
+ .answer{
+    background-color: fuchsia;
+ }
+
+ input[type="text"] {
+    color: salmon;
+    /* background-color: aqua; */
+ }
+ input[type="password"] {
+    color: salmon;
+    /* background-color: salmon; */
+ }
+ input[type]{
+    background-color: ghostwhite;
+ }
+
+ .answer:hover,.upvote:hover{
+    color: white;
+    background-color: lime;
+ }
+
+ /* when you click for that.. */
+ .answer:active,.upvote:active{
+    color: white;
+    background-color: salmon;
+ }
+
+ input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+ }
+/* 
+ .post:nth-of-type(1){
+    background-color: gold;
+ } */
+
+ 
+ div:nth-of-type(2n){
+    background-color: gold;
+ }

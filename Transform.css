@@ -1,0 +1,45 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    /* margin: 0 auto; */
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    /* transform: rotate(45deg); */
+    background-color:deeppink;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: aqua;
+}
+div:nth-of-type(3n){
+background-color: lime
+;}
+
+/* Transform */
+
+#one{
+    transform: rotate(-45deg);
+}
+#two{
+/* transform: rotate(45deg); */
+transform: scalex(0.5);
+/* transform: scaley(4); */
+/* transform: scale(0.5,4); both x,y */
+}
+
+#three{
+    transform: translatex(-100px);
+    /* transform: translatey(100px); */
+    /* transform: translate(100px,100px); */
+}
+#four{
+    transform: skew(70deg);
+}
+
+#five{
+    transform: rotate(45deg)translate(145px) skew(50deg) scale(1,8);
+}

@@ -1,0 +1,40 @@
+div{
+    height: 200px;
+background-color: aqua;
+border-width: 5px;
+border-style: solid;
+border-color:red;
+border-left-color:green ;
+border-right-color:blue ;
+border-top-color:yellow ;
+border-bottom-color:magenta ;
+border-top-left-radius: 30px;
+border-top-right-radius: 100px;
+border-bottom-left-radius: 110px;
+text-align: center;
+/* padding: 20px; //short form of all sides  */
+padding-top: 60px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 20px;
+
+
+/* margin: 10px; */
+margin:10px 20px 30px 20px ;
+
+}
+h1{
+    /* border-width: 6px;
+    border-style: groove;
+    border-color: darkorange; */
+    border: 6px solid darkorange;
+    border-radius: 20px;
+}
+button{
+    border: 3px solid red;
+    border-radius: 9px;
+    font-size: large;
+    align-items: center;
+    background-color: coral;
+    margin: 100px;
+}

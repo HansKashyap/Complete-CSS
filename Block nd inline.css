@@ -1,0 +1,48 @@
+/* DISPLAY PROPERTY */
+
+
+/* h2{
+    display: inline;
+    background-color: aquamarine;
+    /* background-color: red; */
+
+/* span{
+    display: block;
+    background-color: coral;
+    margin-top: 4px;
+} */ 
+
+
+
+
+
+/* 
+
+/* span{
+    background-color: lime;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    padding: 100px;
+} 
+
+ */
+
+div{
+    height: 130px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: aqua;
+    background-color: red;
+    background-color: lime;
+    margin: 5px;
+
+    /* display proprty */
+
+    display: inline-block;
+    /* display: inline-flexbox;  */
+    border-radius: 30px;
+    
+}
+
+

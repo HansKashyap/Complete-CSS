@@ -1,0 +1,8 @@
+div{
+    height: 30px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    margin: 10px auto;
+    box-shadow: 2px 3px  8px deeppink;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .box{
+        height: 100px;
+        width: 300px;
+        background-color: aqua;
+
+
+        /* animation-name: fontAnimation; */
+        /* animation-name: ColorAnimation; */
+        /* animation-name: widthAnimation; */
+
+
+        /* animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+
+        animation-iteration-count: 3;
+        animation-iteration-count: infinite; */
+
+
+        /* direaction 4 type ki hoti h */
+        /* animation-direction: reverse; */
+        /* animation-direction: normal; */
+        /* animation-direction: alternate; */
+        /* animation-direction: alternate-reverse; */
+
+
+
+        /* sabko ek line mei likhne ka tarika */
+
+        animation:ColorAnimation 3s ease-in 0s 2 normal;
+    }
+
+    /* multiple animation add kar sakte h */
+    /* @keyframes widthAnimation{
+        from {width: 10px;
+            background-color: red;
+            font-size: 20px;
+            color: coral;
+            height: 10px;
+        }
+        to {
+            width: 400px;
+            background-color: cyan;
+            font-size: 50px;
+            border-radius: 50%;
+            color: blue;
+            height: 200px;
+            text-align: center;
+        } */
+    /* } */
+
+
+    @keyframes ColorAnimation{
+        0% {
+            background-color: red;
+          
+        }
+
+
+        50% {
+            background-color: cyan;
+        }
+
+
+        80% {
+            background-color: yellow;
+           }
+
+
+        100% {
+            background-color: blue;
+           }
+        /* } */
+
+
+
+
+    @keyframes fontAnimation{
+        from {font-size: 20px;}
+        to {
+            font-size: 20px;
+        }
+    }
+
+
+    @keyframes ColorAnimation{
+        from {background-color: red;}
+        to {
+            background-color: cyan;
+        }
+    }
+    </style>
+</head>
+<body>
+    <h1>Animation</h1>
+    <div class="box">this is a box</div>
+</body>
+</html>
